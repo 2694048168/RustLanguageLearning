@@ -75,7 +75,7 @@ for element in ARRAY_NUMBER {
 - [x] Rust build/compile/run/debugging/release
 - [x] Core concepts: variables/basic types/functions/comments/control flow
 - [x] Ownership(memory safety w/o garbage collector): borrowing/slices/memory data layout
-- [ ] Struct to Structure Related Data
+- [x] Struct to Structure Related Data/Methods/Associated Functions
 - [ ] Enums and Pattern Matching
 
 
@@ -95,6 +95,11 @@ rustup doc
 # 2. VSCode downloading and installing
 
 # 3. rust-analyzer extension installing
+# VSCode 推荐安装插件 1. Better Comments
+# VSCode 推荐安装插件 2. Better TOML
+# VSCode 推荐安装插件 3. CodeLLDB
+# VSCode 推荐安装插件 4. Error Lens
+# VSCode 推荐安装插件 5. rust-analyzer
 
 # 4. simple hello_world example
 mkdir hello_world && cd hello_world
@@ -182,6 +187,9 @@ cargo run
 |—— ownership_rust
 |—— references_borrowing
 |—— slice_type
+|—— define_instance_struct
+|—— example_struct
+|—— method_rust
 |—— README.md
 |—— LICENSE
 |—— .gitignore
