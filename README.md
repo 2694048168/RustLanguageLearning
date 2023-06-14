@@ -74,7 +74,9 @@ for element in ARRAY_NUMBER {
 - [x] Cargo is Rust building and package management
 - [x] Rust build/compile/run/debugging/release
 - [x] Core concepts: variables/basic types/functions/comments/control flow
-- [ ] Ownership(memory safety w/o garbage collector): borrowing/slices/memory data layout
+- [x] Ownership(memory safety w/o garbage collector): borrowing/slices/memory data layout
+- [ ] Struct to Structure Related Data
+- [ ] Enums and Pattern Matching
 
 
 ### Quick start
@@ -177,6 +179,9 @@ cargo run
 |—— data_type
 |—— function_rust
 |—— control_flow
+|—— ownership_rust
+|—— references_borrowing
+|—— slice_type
 |—— README.md
 |—— LICENSE
 |—— .gitignore
